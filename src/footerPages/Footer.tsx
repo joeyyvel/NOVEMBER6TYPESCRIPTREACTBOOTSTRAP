@@ -11,16 +11,16 @@ const Footer = () => {
         </div>
 
         <div>
-          <a href="/">
+          <a href="https:/www.facebook.com" target="_blank">
             <i className="fa-brands fa-facebook-square" id="faceBook"></i>
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/" target="_blank">
             <i className="fa-brands fa-instagram-square" id="instagram"></i>
           </a>
-          <a href="/">
+          <a href="https://www.behance.net/" target="_blank">
             <i className="fa-brands fa-behance-square" id="behance"></i>
           </a>
-          <a href="/">
+          <a href="https://x.com/" target="_blank">
             <i className="fa-brands fa-twitter-square" id="twitter"></i>
           </a>
         </div>

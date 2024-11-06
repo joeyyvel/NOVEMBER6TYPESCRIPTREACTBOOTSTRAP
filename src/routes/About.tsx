@@ -5,7 +5,6 @@ import AboutUs from "../components/AboutUs";
 const About = () => {
   return (
     <div>
-      <h1>About</h1>
       <Navbar />
       <Hero
         cName="Hero-aboutPage"

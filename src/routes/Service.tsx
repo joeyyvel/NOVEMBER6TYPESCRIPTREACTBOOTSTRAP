@@ -6,7 +6,6 @@ import Trip from "../components/Trip";
 const Service = () => {
   return (
     <div>
-      <h1>Service</h1>
       <Navbar />
       <Hero
         cName="hero-aboutPage"

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  padding: 20px 40px;
+}
+
+.main-container > div {
+  border: 1px solid #ccc;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.container-one {
+  flex: 1;
+}
+.container-one > div {
+  padding: 20px;
+}
+
+.container-two {
+  flex: 2;
+}
+
+.container-two > div {
+  padding: 20px;
+}

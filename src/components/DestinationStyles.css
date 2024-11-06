@@ -1,40 +1,108 @@
-.form-container {
-  margin: 4rem 6rem;
+.destination {
+  margin: 7rem 3rem;
 }
 
-.form-container form {
-  padding-top: 3rem;
+.destination h1 {
+  font-size: 3rem;
+}
+
+.popDestination {
+  text-align: center;
+}
+
+.buttonText {
+  background: black;
+}
+
+.paraDestination {
+  text-align: center;
+}
+
+.first-des {
   display: flex;
-  flex-direction: column;
-  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.5rem;
 }
 
-.form-container input {
-  height: 3rem;
-  padding: 0 1rem;
-  margin-bottom: 2rem;
-  border-radius: 0.3rem;
-  border: 1px solid #2a2a2a;
+.first-des-reverse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-top: 4.5rem;
 }
 
-.form-container textarea {
-  padding: 0 1rem;
-  margin-bottom: 2rem;
-  border-radius: 0.3rem;
-  border: 1px solid #2a2a2a;
+.des-text {
+  width: 45%;
+  text-align: start;
+  font-size: 1.1rem;
+  margin: 10px;
+  padding-left: 20px;
 }
 
-.form-container button {
-  display: inline;
+.des-text h2 {
+  padding-bottom: 1rem;
+}
+
+.image {
+  position: relative;
+  width: 40%;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.image img {
+  width: 50%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.9);
+  margin: -5px;
+}
+
+.image img:nth-child(2) {
+  position: absolute;
+  top: -10%;
+  right: 0;
+  margin: 5;
 }
 
 @media screen and (max-width: 850px) {
-  .form-container {
-    margin: 4rem 6rem;
+  .destination {
+    margin: 4rem 2rem;
   }
 
-  .form-container form {
-    padding-top: 2rem;
-    width: 90%;
+  .first-des {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+
+  .first-des-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 4.5rem;
+  }
+
+  .first-des-reverse p {
+    font-size: 12px;
+  }
+
+  .des-text {
+    width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .image img {
+    height: 230px;
   }
 }

@@ -14,6 +14,9 @@ import License from "./footerPages/License";
 import PcAssembly from "./footerPages/PcAssembly";
 import PcTroubleShoot from "./footerPages/PcTroubleShoot";
 import PrivacyPolicy from "./footerPages/PrivacyPolicy";
+import Reactjs from "./footerPages/Reactjs";
+import Sass from "./footerPages/Sass";
+import TermsOfService from "./footerPages/TermsOfService";
 
 export const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -31,4 +34,7 @@ export const router = createBrowserRouter([
   { path: "/pcAssembly", element: <PcAssembly /> },
   { path: "/pcTroubleShoot", element: <PcTroubleShoot /> },
   { path: "/privacyPolicy", element: <PrivacyPolicy /> },
+  { path: "/reactJs", element: <Reactjs /> },
+  { path: "/sass", element: <Sass /> },
+  { path: "/termsOfService", element: <TermsOfService /> },
 ]);

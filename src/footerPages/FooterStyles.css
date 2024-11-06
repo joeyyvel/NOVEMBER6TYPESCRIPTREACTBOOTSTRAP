@@ -1,0 +1,84 @@
+.footer {
+  padding: 4rem 6rem;
+  background: #000;
+  color: #fff;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(39, 231, 103);
+  border-radius: 5px;
+}
+
+.top i {
+  color: #ebe5e5;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+/* ------social media flatForms facebook icon----------*/
+#faceBook:hover {
+  color: blue;
+}
+
+/*-------social media flatForms instagram icon---------*/
+#instagram:hover {
+  color: #a71e5e;
+}
+
+/*--------social media flatForms behance icon-----------*/
+#behance:hover {
+  color: rgb(10, 10, 168);
+}
+
+/*--------social media flatForms twitter icon-----------*/
+#twitter:hover {
+  color: rgb(26, 23, 24);
+}
+
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom div {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom h4 {
+  font-size: 1.3rem;
+  padding: 1rem 0 0rem 0;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 1.1rem;
+  font-size: 1.1rem;
+}
+.footTitle {
+  color: chartreuse;
+}
+
+.topic:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 1rem 1rem;
+  }
+  .footer i {
+    margin: 1rem 1rem;
+  }
+  .bottom div {
+    width: 50%;
+  }
+}

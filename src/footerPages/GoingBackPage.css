@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.fixedBtn {
+  background-color: rgb(196, 196, 207);
+  z-index: 10;
+  position: fixed;
+  display: inline-block;
+  right: 0;
+  opacity: 0.8;
+  margin: 10px 20px 0 0;
+  color: red;
+  border-radius: 10px;
+}
+
+.fixedBtn:hover {
+  background-color: rgb(112, 231, 33);
+}

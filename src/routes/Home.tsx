@@ -1,14 +1,11 @@
 import Destination from "../components/Destination";
-import Footer from "../footerPages/Footer";
 import Hero from "../components/Hero";
 import { Navbar } from "../components/Navbar";
+import "./HomeStyle.css";
 
 export const Home = () => {
   return (
     <div>
-      <h1>
-        Home<i className="fa-regular fa-user"></i>
-      </h1>
       <Navbar />
       <Hero
         cName="hero"
@@ -19,7 +16,6 @@ export const Home = () => {
         btnClass="show"
       />
       <Destination />
-      <Footer />
     </div>
   );
 };

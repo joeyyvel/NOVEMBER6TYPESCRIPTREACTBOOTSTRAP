@@ -6,7 +6,6 @@ import contact from "../images/contact.jpg";
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
       <Navbar />
       <Hero
         cName="hero-aboutPage"
